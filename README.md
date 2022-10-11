@@ -4,6 +4,11 @@
 To present how to build one Prometheus server and another client server, then build a metrics transmission between them.
 
 ## How to use
+0. download Prometheus
+    - https://prometheus.io/download/
+    - `mkdir prometheus-server`
+    - `tar xvfz prometheus-*.tar.gz` and mv output to prometheus-server
+    - config prometheus config by changing the file `prometheus.yml`
 1. start prometheus server
     ```
     $ cd prometheus-server
