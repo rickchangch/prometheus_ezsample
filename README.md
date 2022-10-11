@@ -1,14 +1,13 @@
-> a learning note, reffered from https://eddycjy.com/posts/prometheus/2020-05-16-metrics/
+> a learning note, refered from https://eddycjy.com/posts/prometheus/2020-05-16-metrics/
 
 ## Intro
 To present how to build one Prometheus server and another client server, then build a metrics transmission between them.
 
 ## How to use
 0. download Prometheus
-    - https://prometheus.io/download/
-    - `mkdir prometheus-server`
-    - `tar xvfz prometheus-*.tar.gz` and mv output to prometheus-server
-    - config prometheus config by changing the file `prometheus.yml`
+    - download from https://prometheus.io/download/
+    - use `tar xvfz prometheus-*.tar.gz` and mv outputs to prometheus-server, just exclude `prometheus.yml`
+    - config prometheus by changing the file `prometheus.yml`
 1. start prometheus server
     ```
     $ cd prometheus-server
